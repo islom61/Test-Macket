@@ -1,0 +1,335 @@
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css";
+body {
+  background: #f2f2f2; }
+
+.top-head {
+  background: #fff;
+  position: relative;
+  margin: 0 auto;
+  max-width: 660px;
+  top: 58px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 250px; }
+  @media (max-width: 991px) {
+    .top-head {
+      min-width: 650px;
+      padding-bottom: 15px; } }
+  @media (max-width: 768px) {
+    .top-head {
+      min-width: 650px; } }
+  @media (max-width: 414px) {
+    .top-head {
+      min-width: 530px; } }
+  @media (max-width: 412px) {
+    .top-head {
+      min-width: 412px; } }
+  @media (max-width: 360px) {
+    .top-head {
+      min-width: 360px; } }
+  .top-head .row .col-md-3 {
+    margin-top: 26px; }
+    .top-head .row .col-md-3 img {
+      -webkit-border-radius: 100%;
+              border-radius: 100%; }
+      @media (max-width: 991px) {
+        .top-head .row .col-md-3 img {
+          margin-left: 240px;
+          margin-bottom: 20px; } }
+      @media (max-width: 768px) {
+        .top-head .row .col-md-3 img {
+          margin-left: 245px; } }
+      @media (max-width: 414px) {
+        .top-head .row .col-md-3 img {
+          margin-left: 180px; } }
+      @media (max-width: 412px) {
+        .top-head .row .col-md-3 img {
+          margin-left: 130px; } }
+      @media (max-width: 360px) {
+        .top-head .row .col-md-3 img {
+          margin-left: 100px; } }
+  .top-head .row .col-md-8 {
+    padding-left: 10px;
+    margin-bottom: 20px; }
+    .top-head .row .col-md-8 input {
+      border: none;
+      position: relative;
+      background-color: rgba(255, 255, 255, 0.1);
+      border-bottom: 2px solid #717170;
+      padding-left: 1px;
+      padding-top: 15px;
+      font-family: Roboto, sans-serif;
+      font-size: 12pt;
+      height: 50px;
+      width: 460px; }
+      @media (max-width: 991px) {
+        .top-head .row .col-md-8 input {
+          margin-left: 85px;
+          padding-left: 165px;
+          padding-top: 10px;
+          font-size: 16pt; } }
+      @media (max-width: 768px) {
+        .top-head .row .col-md-8 input {
+          margin-left: 80px;
+          padding-left: 160px;
+          padding-top: 10px;
+          font-size: 18pt; } }
+      @media (max-width: 414px) {
+        .top-head .row .col-md-8 input {
+          margin-left: 25px;
+          font-size: 18pt;
+          padding-left: 130px; } }
+      @media (max-width: 412px) {
+        .top-head .row .col-md-8 input {
+          margin-left: 0;
+          width: 380px;
+          padding-left: 5px; } }
+      @media (max-width: 360px) {
+        .top-head .row .col-md-8 input {
+          margin-left: 0;
+          width: 320px;
+          padding-left: 10px; } }
+  .top-head .row .col-md-1 img {
+    margin-top: 60px;
+    margin-left: -150px; }
+    @media (max-width: 991px) {
+      .top-head .row .col-md-1 img {
+        margin-top: -170px;
+        margin-left: 440px; } }
+    @media (max-width: 768px) {
+      .top-head .row .col-md-1 img {
+        margin-left: 440px; } }
+    @media (max-width: 414px) {
+      .top-head .row .col-md-1 img {
+        margin-left: 330px; } }
+    @media (max-width: 412px) {
+      .top-head .row .col-md-1 img {
+        margin-left: 210px; } }
+    @media (max-width: 360px) {
+      .top-head .row .col-md-1 img {
+        margin-left: 160px; } }
+
+.checkbox {
+  background: #fffefc;
+  position: relative;
+  margin: 0 auto;
+  max-width: 660px;
+  min-width: 500px;
+  top: 58px; }
+  @media (max-width: 900px) {
+    .checkbox {
+      min-width: 650px;
+      padding-bottom: 15px; } }
+  @media (max-width: 768px) {
+    .checkbox {
+      min-width: 650px; } }
+  @media (max-width: 414px) {
+    .checkbox {
+      min-width: 530px; } }
+  @media (max-width: 412px) {
+    .checkbox {
+      min-width: 412px; } }
+  @media (max-width: 360px) {
+    .checkbox {
+      min-width: 360px; } }
+  .checkbox .container {
+    border-top: 2px solid #f2f2f2;
+    max-width: 660px;
+    min-height: 250px; }
+    .checkbox .container p {
+      font-size: 22px;
+      font-weight: 700;
+      font-family: Roboto, sans-serif; }
+    .checkbox .container .row {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      margin-top: 23px; }
+      .checkbox .container .row .col-md-3 {
+        margin: -40px auto 0 auto; }
+        .checkbox .container .row .col-md-3 label span {
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          cursor: pointer;
+          font-size: 11pt;
+          font-weight: 500;
+          font-family: Roboto, sans-serif;
+          text-transform: uppercase;
+          color: #666666;
+          margin-top: 35px;
+          margin-left: 6px; }
+          @media (max-width: 412px) {
+            .checkbox .container .row .col-md-3 label span {
+              font-size: 8pt;
+              margin-left: -1px;
+              margin-top: 23px; } }
+        .checkbox .container .row .col-md-3 label input[type="checkbox"] {
+          display: none; }
+          .checkbox .container .row .col-md-3 label input[type="checkbox"] + .label-text:before {
+            content: "\f0c8";
+            font-family: "FontAwesome";
+            speak: none;
+            color: #EDEDED;
+            font-size: 16pt;
+            font-style: normal;
+            font-weight: normal;
+            font-variant: normal;
+            text-transform: none;
+            line-height: 0.9;
+            -webkit-font-smoothing: antialiased;
+            width: 1em;
+            display: inline-block;
+            margin-right: 5px; }
+            @media (max-width: 412px) {
+              .checkbox .container .row .col-md-3 label input[type="checkbox"] + .label-text:before {
+                font-size: 10pt;
+                width: 0.8em;
+                display: inline-block; } }
+          .checkbox .container .row .col-md-3 label input[type="checkbox"]:checked + .label-text:before {
+            content: "\f14a";
+            color: #5292d4;
+            -webkit-animation: tick 180ms ease-in-out;
+            animation: tick 180ms ease-in-out; }
+          .checkbox .container .row .col-md-3 label input[type="checkbox"]:disabled + .label-text {
+            color: #aaa; }
+            .checkbox .container .row .col-md-3 label input[type="checkbox"]:disabled + .label-text:before {
+              content: "\f14a";
+              color: #5292d4;
+              font-size: 16pt; }
+              @media (max-width: 412px) {
+                .checkbox .container .row .col-md-3 label input[type="checkbox"]:disabled + .label-text:before {
+                  font-size: 10pt; } }
+        @media (max-width: 414px) {
+          .checkbox .container .row .col-md-3 label {
+            font-size: 16pt;
+            margin-left: -7px; } }
+        .checkbox .container .row .col-md-3 label input {
+          margin-right: 7px; }
+        @media (max-width: 360px) {
+          .checkbox .container .row .col-md-3 label {
+            margin-left: -16px;
+            font-size: 12px; } }
+
+@-webkit-keyframes tick {
+  0% {
+    -webkit-transform: scale(0); }
+  90% {
+    -webkit-transform: scale(1.3); }
+  100% {
+    -webkit-transform: scale(1); } }
+
+@keyframes tick {
+  0% {
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0); }
+  90% {
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3); }
+  100% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1); } }
+
+/*#####################Footer##############################*/
+.MyJS {
+  top: 58px;
+  border-top: 2px solid #f2f2f2;
+  max-width: 660px;
+  background: #fff;
+  height: 250px;
+  position: relative;
+  margin: 0 auto 100px auto;
+  min-width: 500px; }
+  @media (max-width: 900px) {
+    .MyJS {
+      min-width: 650px;
+      padding-bottom: 15px; } }
+  @media (max-width: 768px) {
+    .MyJS {
+      min-width: 650px; } }
+  @media (max-width: 414px) {
+    .MyJS {
+      min-width: 530px; } }
+  @media (max-width: 412px) {
+    .MyJS {
+      min-width: 412px; } }
+  @media (max-width: 360px) {
+    .MyJS {
+      min-width: 360px; } }
+  .MyJS .container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 660px; }
+    .MyJS .container .row .images .imgright {
+      margin-top: 82px; }
+    .MyJS .container .row .images .imgcenter {
+      margin-top: -12px;
+      margin-left: -38px; }
+    .MyJS .container .row .images .imgleft {
+      margin-top: -132px;
+      margin-left: 165px; }
+      @media (max-width: 992px) {
+        .MyJS .container .row .images .imgleft {
+          margin-left: -43px;
+          margin-top: 80px; } }
+    .MyJS .container .row .images .imgarrow {
+      margin-top: -107px;
+      margin-left: 80px; }
+      @media (max-width: 992px) {
+        .MyJS .container .row .images .imgarrow {
+          margin-left: -200px;
+          margin-top: 145px; } }
+    @media (max-width: 992px) {
+      .MyJS .container .row .images {
+        margin-top: -5px;
+        margin-left: 10px; } }
+    @media (max-width: 412px) {
+      .MyJS .container .row .images {
+        margin-top: 40px;
+        margin-left: 60px; } }
+    @media (max-width: 412px) {
+      .MyJS .container .row .images {
+        margin-top: 40px;
+        margin-left: 40px; } }
+    .MyJS .container .javascript-text h3 {
+      font-size: 18px;
+      font-family: Roboto, sans-serif;
+      font-weight: 700;
+      margin-top: 60px;
+      margin-left: -5px; }
+    .MyJS .container .javascript-text .number {
+      font-size: 50px;
+      font-weight: 900;
+      font-family: Roboto, sans-serif;
+      color: #0093D7;
+      line-height: 39px;
+      margin-left: -6px;
+      opacity: 0; }
+    .MyJS .container .javascript-text .viz {
+      opacity: 1;
+      -webkit-transition: 1s ease;
+      -o-transition: 1s ease;
+      transition: 1s ease; }
+    @media (max-width: 992px) {
+      .MyJS .container .javascript-text {
+        margin-top: -200px;
+        margin-left: 350px; } }
+    @media (max-width: 412px) {
+      .MyJS .container .javascript-text {
+        margin-top: -290px;
+        margin-left: 5px;
+        line-height: 20px; } }
+    @media (max-width: 360px) {
+      .MyJS .container .javascript-text {
+        margin-top: -290px;
+        margin-left: 5px;
+        line-height: 20px; } }
